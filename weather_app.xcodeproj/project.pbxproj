@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0393B922667A6FA00931A5A /* Precipitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0393B912667A6FA00931A5A /* Precipitation.swift */; };
 		ED8CE89F26650AF7009B901D /* ThermalSensation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8CE89E26650AF7009B901D /* ThermalSensation.swift */; };
 		ED9B5C182663C63100B10EB4 /* weather_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B5C172663C63100B10EB4 /* weather_appApp.swift */; };
 		ED9B5C1A2663C63100B10EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B5C192663C63100B10EB4 /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0393B912667A6FA00931A5A /* Precipitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Precipitation.swift; sourceTree = "<group>"; };
 		ED8CE89E26650AF7009B901D /* ThermalSensation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalSensation.swift; sourceTree = "<group>"; };
 		ED9B5C142663C63100B10EB4 /* weather_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9B5C172663C63100B10EB4 /* weather_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_appApp.swift; sourceTree = "<group>"; };
@@ -74,9 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0393B902667A6AD00931A5A /* Precipitation */ = {
+			isa = PBXGroup;
+			children = (
+				D0393B912667A6FA00931A5A /* Precipitation.swift */,
+			);
+			path = Precipitation;
+			sourceTree = "<group>";
+		};
 		ED8CE89C26650ACC009B901D /* components */ = {
 			isa = PBXGroup;
 			children = (
+				D0393B902667A6AD00931A5A /* Precipitation */,
 				ED8CE89D26650AD6009B901D /* ThermalSensation */,
 			);
 			path = components;
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED9B5C1A2663C63100B10EB4 /* ContentView.swift in Sources */,
+				D0393B922667A6FA00931A5A /* Precipitation.swift in Sources */,
 				ED8CE89F26650AF7009B901D /* ThermalSensation.swift in Sources */,
 				ED9B5C182663C63100B10EB4 /* weather_appApp.swift in Sources */,
 			);
