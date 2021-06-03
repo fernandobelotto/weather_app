@@ -24,7 +24,6 @@ struct ThermalSensation: View {
                     InfoRow(title: "Visibilidade", value: "16km")
                     InfoRow(title: "UV Index", value: "Baixo 0")
                     InfoRow(title: "Ponto de condensação", value: "15C")
-
                 }
             }
         }.padding(10).background(Color("bg")).cornerRadius(15).padding(10)
@@ -56,3 +55,23 @@ struct InfoRow: View {
     }
     
 }
+
+struct InfoRowTiny: View {
+    var title: String
+    var value: String
+    var body: some View {
+        HStack {
+            Text(title)
+                .font(.system(size: 9))
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            Text(value)
+                .font(.system(size: 10))
+                .foregroundColor(.white)
+                .frame(alignment: .trailing)
+
+        }.frame(minWidth: 0,maxWidth: .infinity)
+    }
+    
+}
+
