@@ -7,13 +7,20 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    //MARK: - PROPERTIES
+    var weatherInfo: WeatherInfo = weatherMock;
+
+    //MARK: - BODY
     var body: some View {
-        Text("Hello, world!")
+        Text(weatherInfo.location.name)
             .padding()
     }
 }
 
+
+//MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
