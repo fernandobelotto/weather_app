@@ -24,7 +24,6 @@ struct ThermalSensation: View {
                     InfoRow(title: "Visibilidade", value: "16km")
                     InfoRow(title: "UV Index", value: "Baixo 0")
                     InfoRowTiny(title: "ponto de condensação", value: "15C")
-
                 }
             }
         }.padding(10).background(Color("bg")).cornerRadius(15).padding(10)
